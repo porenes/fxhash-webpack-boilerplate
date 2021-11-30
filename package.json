@@ -10,6 +10,7 @@
     "start": "webpack serve --config ./config/webpack.config.dev.js"
   },
   "dependencies": {
+    "@liamegan1/fxhash-helpers": "0.0.8",
     "p5": "^1.4.0"
   },
   "devDependencies": {
