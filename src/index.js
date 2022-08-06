@@ -137,9 +137,7 @@ let sketch = function (p5) {
 
   p5.windowResized = function () {
     s = p5.min(p5.windowWidth / RATIO, p5.windowHeight);
-    i = 1;
     p5.resizeCanvas(s * RATIO, s);
-    p5.loop();
   };
 
   p5.keyTyped = function () {
