@@ -4,7 +4,7 @@ import {
   FXRandomBool,
   FXRandomIntBetween,
   FXRandomOption,
-  getWeightedOption,
+  FXGetWeightedOption,
 } from "@liamegan1/fxhash-helpers";
 import p5 from "p5";
 import p5Svg from "p5.js-svg";
